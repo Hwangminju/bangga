@@ -11,8 +11,8 @@ body {
 }
 
 video #remoteVideo {
-  width: 60vw;
+  width: 300px;
 }
 
 vide #localVideo {
-  width: 40vw;
+  width: 200px;
