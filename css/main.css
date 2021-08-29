@@ -10,9 +10,6 @@ body {
   font-family: "Malgun Gothic";
 }
 
-#remoteVideo {
+video {
   width: 300px;
 }
-
-#localVideo {
-  width: 200px;
