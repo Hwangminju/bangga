@@ -12,7 +12,8 @@ body {
 
 #videos {
   text-align: center;
-
+}
+  
 video {
   width: 45%;
 }
