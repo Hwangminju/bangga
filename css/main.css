@@ -9,10 +9,6 @@ p {
 body {
   font-family: "Malgun Gothic";
 }
-
-#videos {
-  text-align: center;
-}
   
 video {
   width: 45%;
