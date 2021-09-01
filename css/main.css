@@ -1,13 +1,22 @@
-h1 {
+body {
+  margin: 0;
+}
+
+.title {
   text-align: center;
 }
 
-p {
+.subtitle {
   text-align: center;
+}
+
+.top {
+  background: #FFE6E6;
+  padding: 1px;
 }
 
 body {
-  font-family: "Malgun Gothic";
+  font-family: 'Poor Story', cursive;
 }
   
 video {
