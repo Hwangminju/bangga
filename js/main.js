@@ -34,7 +34,7 @@ var room = 'foo';
 // Could prompt for room name:
 // room = prompt('Enter room name:');
 
-var socket = io.connect('https://localhost:3000');
+var socket = io.connect('https://192.168.0.10:3000');
 
 if (room !== '') {
   socket.emit('create or join', room);
