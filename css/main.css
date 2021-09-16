@@ -20,8 +20,11 @@ body {
 }
 
 #videoSection {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+}
+
+.videos {
+  display: inline-block;
 }
   
 #remoteVideo {
