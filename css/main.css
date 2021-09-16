@@ -29,9 +29,9 @@ body {
 }
   
 #remoteVideo {
-  width: 72.5%;
+  width: 70%;
 }
 
 #localVideo {
-  width: 22.5%;
+  width: 20%;
 }
