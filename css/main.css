@@ -13,6 +13,8 @@ body {
 .top {
   background: #FFE6E6;
   padding: 1px;
+  display: flex;
+  justify-content: center;
 }
 
 body {
