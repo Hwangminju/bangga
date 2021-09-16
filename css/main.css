@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  display: flex;
-  justify-content: center;
 }
 
 .title {
@@ -19,6 +17,11 @@ body {
 
 body {
   font-family: 'Poor Story', cursive;
+}
+
+#videoSection {
+  display: flex;
+  justify-content: center;
 }
   
 #remoteVideo {
