@@ -34,7 +34,8 @@ var room = 'foo';
 // Could prompt for room name:
 // room = prompt('Enter room name:');
 
-var socket = io.connect('https://192.168.0.10:3000');
+// 공유기 사설 IP주소
+var socket = io.connect('https://192.168.0.13:3000');
 
 if (room !== '') {
   socket.emit('create or join', room);
