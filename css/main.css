@@ -27,11 +27,11 @@ body {
 #videos {
   display: inline-block;
 }
-  
-#remoteVideo {
+
+#localVideo {
   width: 70%;
 }
 
-#localVideo {
+#remoteVideo {
   width: 20%;
 }
