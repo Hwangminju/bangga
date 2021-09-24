@@ -44,5 +44,19 @@
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
+  const messaging = firebase.messaging();
+  
+  // token값 확인
+  messaging.requestPermission()
+      .then(function(){
+          console.log("Have permission");
+          return messaging.getToken();
+      })
+      .then(function(token){
+          console.log(token);
+      })
+      .catch(function(arr){
+          console.log("Error Occured");
+      });
 </script>
 </html>
