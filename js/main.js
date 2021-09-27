@@ -42,7 +42,7 @@ var room = 'foo';
 // room = prompt('Enter room name:');
 
 // 공유기 사설 IP주소
-var socket = io.connect('https://192.168.0.13:3000');
+var socket = io.connect('https://172.20.10.8:3000');
 // var socket = io.connect();
 
 if (room !== '') {
