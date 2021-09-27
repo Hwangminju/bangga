@@ -19,9 +19,9 @@ var pcConfig = {
 var pcConfig = {
   'iceServers': [
     {
-      "urls":["turn:numb.viagenie.ca"],
-      "username":"webrtc@live.com",
-      "credential":"muazkh"
+      "urls": "turn:numb.viagenie.ca",
+      "username": "webrtc@live.com",
+      "credential": "muazkh"
     }
   ]
 };
@@ -137,6 +137,7 @@ if (location.hostname !== 'localhost') {
   requestTurn(
     'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
   );
+  console.log("requestTurn 완료!!');
 }
 
 function maybeStart() {
@@ -218,7 +219,7 @@ function onCreateSessionDescriptionError(error) {
 function requestTurn(turnURL) {
   var turnExists = false;
   for (var i in pcConfig.iceServers) {
-    if (pcConfig.iceServers[i].urls[0].substr(0, 5) === 'turn:') {
+    if (pcConfig.iceServers[i].urls.substr(0, 5) === 'turn:') {
       turnExists = true;
       turnReady = true;
       break;
