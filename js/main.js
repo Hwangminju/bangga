@@ -137,7 +137,7 @@ if (location.hostname !== 'localhost') {
   requestTurn(
     'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
   );
-  console.log("requestTurn 완료!!');
+  console.log('requestTurn 완료!!');
 }
 
 function maybeStart() {
