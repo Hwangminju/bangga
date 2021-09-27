@@ -18,9 +18,10 @@ var pcConfig = {
 
 var pcConfig = {
   'iceServers': [
-    {"urls":["turn:numb.viagenie.ca"],
-     "username":"webrtc@live.com",
-     "credential":"muazkh"
+    {
+      "urls":["turn:numb.viagenie.ca"],
+      "username":"webrtc@live.com",
+      "credential":"muazkh"
     }
   ]
 };
@@ -43,7 +44,7 @@ var socket = io.connect();
 
 if (room !== '') {
   socket.emit('create or join', room);
-  console.log('Attempted to create or  join room', room);
+  console.log('Attempted to create or join room', room);
 }
 
 socket.on('created', function(room) {
